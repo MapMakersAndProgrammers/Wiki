@@ -1,0 +1,59 @@
+site_name: MapMakers Wiki
+site_url: https://mapmakersandprogrammers.github.io/wiki/
+
+theme:
+  logo: resources/icon.webp
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.integrate
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-2
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra:
+  favicon: resources/icon.ico
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Alternativa3D:
+      - Versions:
+          - 2.0: pages/A3D-Versions/2-0.md
+          - 5.0: pages/A3D-Versions/5.0.md
+          - 6.0: pages/A3D-Versions/6.0.md
+          - 7.0: pages/A3D-Versions/7.0.md
+          - 7.0v2: pages/A3D-Versions/7.0v2.md
+          - 8.0: pages/A3D-Versions/8.0.md
+      - something else:
+          - something else sub : idk/idk.md
+  - About: about.md
