@@ -47,11 +47,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Alternativa3D:
-      - Versions:
-          - 2.0: pages/A3D-Versions/2-0.md
-          - 5.0: pages/A3D-Versions/5.0.md
-          - 6.0: pages/A3D-Versions/6.0.md
-          - 7.0: pages/A3D-Versions/7.0.md
-          - 7.0v2: pages/A3D-Versions/7.0v2.md
-          - 8.0: pages/A3D-Versions/8.0.md
+      - 'Getting started with Alternativa3D8': pages/Alternativa3D/GettingStartedA3D8/part1.md
+      - 'Version history':
+          - Alternativa3D5: pages/Alternativa3D/VersionHistory/Alternativa3D5.md
+          - Alternativa3D6: pages/Alternativa3D/VersionHistory/Alternativa3D6.md
+          - Alternativa3D7: pages/Alternativa3D/VersionHistory/Alternativa3D7.md
+          - Alternativa3D8: pages/Alternativa3D/VersionHistory/Alternativa3D8.md
   - About: about.md
