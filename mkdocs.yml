@@ -47,7 +47,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Alternativa3D:
-      - 'Getting started with Alternativa3D8': pages/Alternativa3D/GettingStartedA3D8/part1.md
+      - 'Getting started':
+          - 'Alternativa3D8: Hello alternativa': pages/Alternativa3D/GettingStartedA3D8/part1.md
       - 'Version history':
           - Alternativa3D5: pages/Alternativa3D/VersionHistory/Alternativa3D5.md
           - Alternativa3D6: pages/Alternativa3D/VersionHistory/Alternativa3D6.md

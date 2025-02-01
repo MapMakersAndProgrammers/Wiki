@@ -1,1 +1,2 @@
 # Alternativa3D5
+Oldest known version of Alternativa3D, predates the Stage3D API so is not hardware accelerated. This version of the engine is best known for its usage in the Alternativa Editor, a map editor made by the creators of the engine for their game Tanki Online.

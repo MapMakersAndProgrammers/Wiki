@@ -1,1 +1,2 @@
 # Alternativa3D7
+Last version of Alternativa3D to use software rendering, later updated to use the Stage3D API for GPU acceleration, it was the latest actively updated version of Alternativa3D before flash EOL in 2020. This branch of the engine was ultimately rewritten in Kotlin for the HTML5 port of Tanki Online utilising the OpenglES/Webgl APIs for graphics.

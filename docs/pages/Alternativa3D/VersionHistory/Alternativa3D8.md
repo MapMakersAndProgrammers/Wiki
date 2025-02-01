@@ -1,1 +1,2 @@
 # Alternativa3D8
+This version of Alternativa3D was designed specifically for the, then new, "molehill" Stage3D api to take advantage of GPU acceleration and increase the visual fidelity possible by Alternativa3D with the release of flashplayer 11. This version of the engine was released as opensource under the MPL 2.0 license and is still available on github but has long been abandoned, Alternativa Games returned to developing their older generation engine Alternativa3D7 instead.
